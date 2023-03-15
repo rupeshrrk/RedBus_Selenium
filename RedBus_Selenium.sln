@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedBus_Selenium", "RedBus_Selenium.csproj", "{332D28CD-9FB1-45C3-BB36-4F37BF24BECE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{332D28CD-9FB1-45C3-BB36-4F37BF24BECE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{332D28CD-9FB1-45C3-BB36-4F37BF24BECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{332D28CD-9FB1-45C3-BB36-4F37BF24BECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{332D28CD-9FB1-45C3-BB36-4F37BF24BECE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C12D6DAE-774D-48E6-B0B8-41E62BD4EE60}
+	EndGlobalSection
+EndGlobal
