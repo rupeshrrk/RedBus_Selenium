@@ -16,7 +16,8 @@ namespace RedBus_Selenium
         IWebDriver driver = new ChromeDriver();
 
         // Declare path to the output file
-        string filePath = @"C:\Users\al4000\source\repos\RedBus_Selenium\Output\Operators.txt";
+        // Get the current project path
+        string filePath = Directory.GetParent(Assembly.GetExecutingAssembly().Location).Parent.Parent.Parent + @"\Output\Operators.txt";
 
         [Test]
         public void Test()
