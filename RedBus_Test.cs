@@ -91,7 +91,6 @@ namespace RedBus_Selenium
                 if (File.Exists(filePath))
                 {
                     using StreamWriter writer = File.AppendText(filePath);
-                    writer.WriteLine("--------- Page 1 of 5 ---------");
                     writer.WriteLine(name);
 
                 }
@@ -111,7 +110,6 @@ namespace RedBus_Selenium
                 if (File.Exists(filePath))
                 {
                     using StreamWriter writer = File.AppendText(filePath);
-                    writer.WriteLine("--------- Page 2 of 5 ---------");
                     writer.WriteLine(name);
 
                 }
@@ -131,7 +129,6 @@ namespace RedBus_Selenium
                 if (File.Exists(filePath))
                 {
                     using StreamWriter writer = File.AppendText(filePath);
-                    writer.WriteLine("--------- Page 3 of 5 ---------");
                     writer.WriteLine(name);
                 }
             }
@@ -150,7 +147,6 @@ namespace RedBus_Selenium
                 if (File.Exists(filePath))
                 {
                     using StreamWriter writer = File.AppendText(filePath);
-                    writer.WriteLine("--------- Page 4 of 5 ---------");
                     writer.WriteLine(name);
                 }
             }
@@ -171,7 +167,6 @@ namespace RedBus_Selenium
                 if (File.Exists(filePath))
                 {
                     using StreamWriter writer = File.AppendText(filePath);
-                    writer.WriteLine("--------- Page 5 of 5 ---------");
                     writer.WriteLine(name);
                 }
             }
