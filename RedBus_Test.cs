@@ -12,7 +12,7 @@ namespace RedBus_Selenium
 {
     public class RedbusOperators
     {
-        // Create a new ChromeDriver instance
+        // Create a new ChromeDriver instance 1
         IWebDriver driver = new ChromeDriver();
 
         // Declare path to the output file
